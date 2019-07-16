@@ -6,7 +6,8 @@ class PlaceLocation {
   final double longitude;
   final String address;
 
-  PlaceLocation({
+  //constructor does not change at runtime. 
+  const PlaceLocation({
     @required this.latitude,
     @required this.longitude,
     this.address, //just the human readable part, not required in all cases. 
